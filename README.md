@@ -1,6 +1,8 @@
 # 42Piscine
 All my done C-tasks during the 42Piscine; will correct failed tasks after the piscine
 
+NOTE: Yes I messed up on my commit messages my bad lol
+
 -- Update log --
 
 C00: ex00 - ex08; ex07 failed & ex08 nothing turned in.
