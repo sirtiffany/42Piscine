@@ -38,11 +38,6 @@ int	find_start(char *str)
 	while (str[i] == ' ' || str[i] == '\n'
 		|| str[i] == '\f' || str[i] == '\r' || str[i] == '\t' || str[i] == '\v')
 	{
-		if ((('0' <= str[i]) && (str[i] <= '9'))
-			|| str[i] == '-' || str[i] == '+')
-		{
-			break ;
-		}
 		i++;
 	}
 	return (i);
