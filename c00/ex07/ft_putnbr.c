@@ -6,7 +6,7 @@
 /*   By: marmoral <marmoral@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 10:47:03 by marmoral          #+#    #+#             */
-/*   Updated: 2022/02/12 15:16:53 by marmoral         ###   ########.fr       */
+/*   Updated: 2022/02/27 00:23:04 by marmoral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,14 +38,12 @@ void	ft_putnbr(int nb)
 {
 	int			b;
 	long		a;
-	char		z;
 
 	a = reversenbr(nb);
 	b = 0;
-	z = '0';
-	if (nb == 0)
+	if (nb == b)
 	{
-		write(1, &z, 1);
+		write(1, "0", 1);
 	}
 	if (nb < 0)
 	{
@@ -60,7 +58,7 @@ void	ft_putnbr(int nb)
 	}
 	while ((nb % 10) == 0 && nb > 0)
 	{
-		write(1, &z, 1);
+		write(1, "0", 1);
 		nb = nb / 10;
 	}
 }
