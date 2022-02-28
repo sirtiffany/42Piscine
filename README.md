@@ -6,6 +6,7 @@ NOTE: Yes I messed up on my commit messages my bad lol
 -- Update log --
 
 C00: ex00 - ex08; ex07 failed & ex08 nothing turned in.
+  - ex07 fixed and added recursion version.
 
 C01: ex00 - ex08; ex08 nothing turned in.
 
