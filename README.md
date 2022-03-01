@@ -12,6 +12,6 @@ C01: ex00 - ex08; ex08 nothing turned in.
 
 C02: ex00 - ex12; ex09-11 failed & ex12 nothing turned in.
 
-C03: ex05 not finished.
+C03: ex00 - ex05; ex05 not finished.
 
-C04: ex04 and ex05 not finished.
+C04: ex00 - ex05; ex04 and ex05 not finished.
